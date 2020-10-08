@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "FirstOrderUpwind", "FirstOrderUpwind\FirstOrderUpwind.vfproj", "{0937AF82-B3AD-4413-A954-3661F171EDA3}"
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "TEST", "TEST\TEST.vfproj", "{89B19C2A-3602-415E-9236-4C5BA0DBB760}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0937AF82-B3AD-4413-A954-3661F171EDA3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0937AF82-B3AD-4413-A954-3661F171EDA3}.Debug|Win32.Build.0 = Debug|Win32
+		{0937AF82-B3AD-4413-A954-3661F171EDA3}.Release|Win32.ActiveCfg = Release|Win32
+		{0937AF82-B3AD-4413-A954-3661F171EDA3}.Release|Win32.Build.0 = Release|Win32
+		{89B19C2A-3602-415E-9236-4C5BA0DBB760}.Debug|Win32.ActiveCfg = Debug|Win32
+		{89B19C2A-3602-415E-9236-4C5BA0DBB760}.Debug|Win32.Build.0 = Debug|Win32
+		{89B19C2A-3602-415E-9236-4C5BA0DBB760}.Release|Win32.ActiveCfg = Release|Win32
+		{89B19C2A-3602-415E-9236-4C5BA0DBB760}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
