@@ -1,4 +1,5 @@
 # NumericalHeatTransfer
-1.TDMA.F90->【区域离散法B+FVM+TDMA】 求解一维稳态导热方程程序，同时含有数据分析。
-2.FirstOrderUpwind.F90->【区域离散法B+FVM+TDMA+一阶迎风格式】求解一维稳态无源对流-扩散方程，同时含有数值分析，但是该程序有一个小瑕疵，pe正负的物理意义还有待讨论。
-3.FUS_CD_HS_QUICK.F90 ->【区域离散法B+FVM+TDMA】一维稳态无源对流扩散方程求解方法，使用了一阶迎风格式，中心差分，混合格式，QUICK格式进行求解。
+This repo is my NHT/CHT/CFD program pratice of the NHT class which is taught by Professor Wen-quan Tao.
+1. Final Home Work is a 2D engineering problem solve by the program, in this directory, the Main.F is the SIMPLER algorithm solver which made by Professor Tao, and the CASEA.F90, CASEB.F90 is written by myself to initialize the whole field, set the boundary conditions, modeling the solid and fluid region.
+2. The other directory such as FirstOiderUpwind and TDMA+FVM is the self-program of the usual homework.
+3. All the program is based on the Finite Volume Method(FVM) and Spatial Discrete Method B.
